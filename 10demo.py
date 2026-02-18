@@ -44,3 +44,32 @@ print(hyp)
 def pythagoras(a, b):
     return math.sqrt(a**2 + b**2)
 print(pythagoras(3,4))
+
+#Function Practice
+
+def circle_area(r): return math.pi * r**2
+print(circle_area(2))
+
+def rectangle_area(w, h): return w * h
+print(rectangle_area(2,3))
+
+#Practice
+
+def temp_convert(c): 
+    f = c * 9/5 + 32
+    return f
+print(temp_convert(24))
+
+def distance(x1, y1, x2, y2):
+    d = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+    return d
+print(distance(0,0,3,4))
+
+#Strings
+s = 'hello world'
+print(s, type(s))
+
+
+
+
+    
